@@ -1,0 +1,28 @@
+README - Solution Homework2
+
+Name: Chaitanya Datye
+NetId: cdatye2
+Email: cdatye2@illinois.edu
+
+- The src directory contains all the code that was witten.
+- The Pred_Files directory contains all the .pred files that were generated during the experiments.
+
+
+For execution ----- 
+
+First change your directory to the decision-trees directory
+
+1. In order to execute 2.b (SGD) execute ./testSGD.sh
+
+	This will compile and execute the SGD implementation of the problem set
+
+2. In order to execute 2.c and 2.d, execute ./testId3.sh
+
+	This has three execution calls to the Id3() program.
+	The first execution is for the Id3() with max_depth = -1 and creates a 2.c.pred file
+	The second execution is for the Id3() with max_depth = 4 and creates a 2.d.4.pred file
+	The third execution is for the Id3() with max_depth = 8 and creates a 2.d.8.pred file
+
+3. In order to execute 2.e, execute ./testDecisionStumps.sh
+
+	This will compile and execute the Decision Stumps implementation of the problem set.
